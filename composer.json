@@ -1,0 +1,24 @@
+{
+    "name": "chistowick/mango",
+    "description": "Test task",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anatoly Chinyaev",
+            "email": "chistowick@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chistowick\\Mango\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "ext-mbstring": "*"
+    }
+}
